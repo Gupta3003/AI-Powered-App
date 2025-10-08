@@ -8,10 +8,13 @@ A smart and interactive AI-powered chatbot web application built with **Flask**,
 
 ---
 
+## **Demo Vedio**
+https://github.com/user-attachments/assets/eb9f1695-9bce-4472-9b02-961a1db261c
+---
 ## **Demo Screenshot**
-![Demo Screenshot](screenshots/demo.png)  
-*(Optional: Add your screenshot in `screenshots/` folder)*
-
+|Front Chatbot UI|Chatbot Conversation Message|
+|----------------|----------------------------|
+|<img width="1366" height="768" alt="Screenshot (1197)" src="https://github.com/user-attachments/assets/f3eba12c-5531-4461-b2b4-5d72c80b825c" />|<img width="1366" height="768" alt="Screenshot (1199)" src="https://github.com/user-attachments/assets/bf0bb7ec-705f-4c0b-aa8c-8d19aa865c58" />|
 ---
 
 ## **Features**
