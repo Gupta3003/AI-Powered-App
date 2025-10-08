@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI-QA Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <script src="{{ url_for('static', filename='js/index.js') }}" defer></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">🤖 AI-QA Chatbot</div>
+        <form class="chat-input" action="{{ url_for('result') }}" method="post" id="chatForm">
+            <input type="text" name="question" id="question" placeholder="Ask me anything..." autocomplete="off" required>
+            <button type="submit">Send</button>
+        </form>
+        <p id="error-msg"></p>
+        <a href="{{ url_for('reset') }}" class="reset-btn">Reset Conversation</a>
+    </div>
+</body>
+</html>
