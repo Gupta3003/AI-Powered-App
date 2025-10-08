@@ -66,22 +66,22 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 
-3.**Install dependencies**
+3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4.**Create a .env file**
+4. **Create a .env file**
 ```bash
 HUGGINGFACE_API_KEY=your_huggingface_api_key_here
 ```
 
-5.**Run the Flask app**
+5. **Run the Flask app**
 ```bash
 python app.py
 ```
 
-6.**Open in browser**
+6. **Open in browser**
 ```bash
 http://127.0.0.1:5000/
 ```
