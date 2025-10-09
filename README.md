@@ -1,9 +1,5 @@
 # 🤖 AI-QA Chatbot
 
-[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-API-orange.svg)](https://huggingfaceco/)
-
 A smart and interactive AI-powered chatbot web application built with **Flask**, capable of answering user questions using the **Hugging Face OpenAI-compatible API**. This project features a clean and responsive UI, conversation memory, and real-time chat-like interface.
 
 ---
